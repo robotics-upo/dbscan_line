@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(dbscan_line_cluster)
+project(dbscan_line)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 set (CMAKE_CXX_STANDARD 14)
@@ -14,10 +14,10 @@ include_directories(
   ${EIGEN3_INCLUDE_DIR}
 )
 
-add_library(dbscan_line_cluster SHARED src/dbscan.cpp src/dbscan_lines.cpp
+add_library(dbscan_line SHARED src/dbscan.cpp src/dbscan_lines.cpp
           src/line.cpp src/detected_line.cpp
 )
 
-install( TARGETS dbscan_line_cluster DESTINATION ${INSTALL_LOCATION}lib/ PERMISSIONS OWNER_READ GROUP_READ WORLD_READ OWNER_EXECUTE GROUP_EXECUTE WORLD_EXECUTE )
+install( TARGETS dbscan_line DESTINATION ${INSTALL_LOCATION}lib/ PERMISSIONS OWNER_READ GROUP_READ WORLD_READ OWNER_EXECUTE GROUP_EXECUTE WORLD_EXECUTE )
 
 install(DIRECTORY include/dbscan_line DESTINATION ${INSTALL_LOCATION}include)

@@ -1,7 +1,0 @@
-/home/chur/git/dbscan_line/build/CMakeFiles/install/strip.dir
-/home/chur/git/dbscan_line/build/CMakeFiles/install/local.dir
-/home/chur/git/dbscan_line/build/CMakeFiles/install.dir
-/home/chur/git/dbscan_line/build/CMakeFiles/list_install_components.dir
-/home/chur/git/dbscan_line/build/CMakeFiles/rebuild_cache.dir
-/home/chur/git/dbscan_line/build/CMakeFiles/edit_cache.dir
-/home/chur/git/dbscan_line/build/CMakeFiles/dbscan_line_cluster.dir

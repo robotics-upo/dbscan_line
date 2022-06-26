@@ -1,5 +1,0 @@
-/usr/local/lib/libdbscan_line_cluster.so
-/usr/local/include/dbscan_line/dbscan.h
-/usr/local/include/dbscan_line/line.h
-/usr/local/include/dbscan_line/detected_line.h
-/usr/local/include/dbscan_line/dbscan_lines.h
